@@ -12,7 +12,7 @@ module FrenchDepartments
     all_departments.map {|d| d[3]}
   end
 
-  def self.all_departments_territorys
+  def self.all_departments_territories
     all_departments.map {|d| d[4]}
   end
 
